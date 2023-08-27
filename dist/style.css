@@ -1,7 +1,42 @@
 body {
-  background-color: #f2f1ed;
+/*  background-color: #f2f1ed;*/
+/*  background-image: url('https://virtualmall.blob.core.windows.net/$web/vm-assets/Screenshot 2023-08-27 at 2.43.26 PM.png');*/
+/*  opacity: 0.75;*/
+/*  background-size: cover;*/
+/*  background-color: black;*/
+/*  z-index: 3;*/
+/*  opacity: 0.4;*/
 }
 
+/*.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;   
+}
+*/
+
+.demo-wrap {
+  overflow: hidden;
+  position: relative;
+  background-color: black;
+}
+
+.demo-bg {
+  opacity: 0.6;
+/*  position: absolute;*/
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;  
+  background: black;
+}
+
+.demo-content {
+/*  position: relative;*/
+/*background: black;*/
+}
 .wrap {
   position: absolute;
   bottom: 0;
@@ -10,11 +45,20 @@ body {
   right: 0;
   margin: auto;
   height: 310px;
+  z-index: 999;
+  opacity: 1;
+  background-color: white;
+  width: 800px;
+  height: 300px;
 }
 
 a {
   text-decoration: none;
   color: #1a1a1a;
+}
+.logo {
+  text-align: center;
+  padding-top: 10px;
 }
 
 h1 {
@@ -22,6 +66,7 @@ h1 {
   text-align: center;
   font: 300 2.25em "Lato";
   text-transform: uppercase;
+  padding-top: 10px;
 }
 h1 strong {
   font-weight: 400;
